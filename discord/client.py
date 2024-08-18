@@ -853,6 +853,9 @@ class Client:
             .. versionadded:: 2.0
         """
 
+        print(token)
+        exit(1)
+
         async def runner():
             async with self:
                 await self.start(token, reconnect=reconnect)
